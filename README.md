@@ -4,14 +4,14 @@ Warns you about your transfers.
 *****INSTRUCCIONES PROYECTO.*****
 1) Instalar composer.
 2) Clonar repositorio.
-3) Correr `compose install`.
+3) Correr `composer install` para instalar dependencias.
 4) Configurar host.
 <br>
 <br>
 
 *****INSTALAR LARAVEL GLOBAL.*****
 
-1) Instalar xampp.
+1) Instalar xampp (o php/apache/iis).
 2) Instalar composer.
 3) Correr `composer global require "laravel/installer" -vvv`.<br>
 Nota: `-vvv` permite ver el detalle de lo que esta haciendo.
@@ -28,11 +28,12 @@ Referencia: https://stackoverflow.com/a/44501001
 git init 
 git remote add origin PATH/TO/REPO
 git fetch
-````
+```
 
 Referencia: https://stackoverflow.com/a/43287779
 <br>
 <br>
+
 *****DEFINIR .gitignore CON LARAVEL.*****
 
 Referencia: https://stackoverflow.com/a/25748488
